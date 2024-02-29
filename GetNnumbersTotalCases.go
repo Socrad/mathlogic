@@ -1,7 +1,7 @@
 package mathlogic
 
+// n개의 숫자의 합이 total을 이루는 모든 경우를 구한다 (n > 0, total >= 0)
 func GetNnumbersTotalCases(n, total int) [][]int {
-	// n개의 숫자의 합이 total을 이루는 경우를 모두 생성하는 문제 (n >= 0, total >= 0)
 
 	// case[0] = total , 나머지 case[1:]에서 n-1개의 숫자의 합이 0을 이루는 경우를 모두 생성하는 문제
 	// case[0] = total - 1 , 나머지 case[1:]에서 n-1개의 숫자의 합이 1을 이루는 경우를 모두 생성하는 문제
